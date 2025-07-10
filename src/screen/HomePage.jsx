@@ -102,7 +102,7 @@ const categories = ["Todos", "Smartphones", "Laptops", "Audio", "Tablets", "Wear
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
+      
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
@@ -142,7 +142,7 @@ export default function HomePage() {
         </div>
       </header>
 
-      {/* Hero Section */}
+     
       <section className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -155,7 +155,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Categories */}
+    
       <section className="py-8 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap gap-4 justify-center">
@@ -168,7 +168,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Products Grid */}
+      
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-8">
@@ -251,7 +251,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Newsletter */}
+     
       <section className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Fique por dentro das novidades</h2>
@@ -263,7 +263,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
+     
       <footer className="bg-white border-t py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

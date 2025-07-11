@@ -158,10 +158,10 @@ export default function HomePage() {
                       Ver Detalhes
                     </Button>
                   </Link>
-                  <Button className="w-full">
+                  <Button className="w-10 h-10  ">
            
-                    <ShoppingCart className="w-4 h-4 mr-2" />
-                    Adicionar ao Carrinho
+                    <ShoppingCart className="w-4 h-4  " />
+                    
                   </Button>
                 </CardFooter>
               </Card>

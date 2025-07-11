@@ -190,7 +190,7 @@ export default function ProductPage() {
                 </Button>
               </div>
 
-              <Link to="/cart">
+              <Link to="/checkout">
                 <Button
                   variant="outline"
                   className="w-full bg-transparent"

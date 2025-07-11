@@ -6,108 +6,22 @@ import { Input } from "@/components/ui/input"
 import { Link } from "react-router-dom";
 
 
-const products = [
-  {
-    id: 1,
-    name: "iPhone 15 Pro Max",
-    price: 1299.99,
-    originalPrice: 1399.99,
-    image: "/placeholder.svg?height=300&width=300",
-    rating: 4.8,
-    reviews: 1250,
-    category: "Smartphones",
-    discount: 7,
-  },
-  {
-    id: 2,
-    name: "Samsung Galaxy S24 Ultra",
-    price: 1199.99,
-    originalPrice: 1299.99,
-    image: "/placeholder.svg?height=300&width=300",
-    rating: 4.7,
-    reviews: 980,
-    category: "Smartphones",
-    discount: 8,
-  },
-  {
-    id: 3,
-    name: 'MacBook Pro 16" M3',
-    price: 2499.99,
-    originalPrice: 2699.99,
-    image: "/placeholder.svg?height=300&width=300",
-    rating: 4.9,
-    reviews: 750,
-    category: "Laptops",
-    discount: 7,
-  },
-  {
-    id: 4,
-    name: "Dell XPS 13",
-    price: 1099.99,
-    originalPrice: 1199.99,
-    image: "/placeholder.svg?height=300&width=300",
-    rating: 4.6,
-    reviews: 620,
-    category: "Laptops",
-    discount: 8,
-  },
-  {
-    id: 5,
-    name: "Sony WH-1000XM5",
-    price: 349.99,
-    originalPrice: 399.99,
-    image: "/placeholder.svg?height=300&width=300",
-    rating: 4.8,
-    reviews: 2100,
-    category: "Audio",
-    discount: 13,
-  },
-  {
-    id: 6,
-    name: "AirPods Pro 2",
-    price: 229.99,
-    originalPrice: 249.99,
-    image: "/placeholder.svg?height=300&width=300",
-    rating: 4.7,
-    reviews: 1800,
-    category: "Audio",
-    discount: 8,
-  },
-  {
-    id: 7,
-    name: 'iPad Pro 12.9"',
-    price: 1099.99,
-    originalPrice: 1199.99,
-    image: "/placeholder.svg?height=300&width=300",
-    rating: 4.8,
-    reviews: 950,
-    category: "Tablets",
-    discount: 8,
-  },
-  {
-    id: 8,
-    name: "Apple Watch Series 9",
-    price: 399.99,
-    originalPrice: 429.99,
-    image: "/placeholder.svg?height=300&width=300",
-    rating: 4.6,
-    reviews: 1400,
-    category: "Wearables",
-    discount: 7,
-  },
-]
-
-const categories = ["Todos", "Smartphones", "Laptops", "Audio", "Tablets", "Wearables"]
+import {productsData} from "@/data/productsData" 
 
 export default function HomePage() {
+
+  const featuredProducts = productsData.slice(0, 8); 
+  const allCategories = ["Todos", ...new Set(productsData.map(product => product.category))]; 
+
   return (
     <div className="min-h-screen bg-gray-50">
-      
+
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <Link href="/" className="flex items-center space-x-2">
+              
+              <Link to="/" className="flex items-center space-x-2">
                 <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-sm">ET</span>
                 </div>
@@ -126,7 +40,8 @@ export default function HomePage() {
               <Button variant="ghost" size="icon">
                 <Heart className="w-5 h-5" />
               </Button>
-              <Link href="/cart">
+              
+              <Link to="/cart">
                 <Button variant="ghost" size="icon" className="relative">
                   <ShoppingCart className="w-5 h-5" />
                   <Badge className="absolute -top-2 -right-2 w-5 h-5 rounded-full p-0 flex items-center justify-center text-xs">
@@ -142,7 +57,7 @@ export default function HomePage() {
         </div>
       </header>
 
-     
+
       <section className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -155,11 +70,12 @@ export default function HomePage() {
         </div>
       </section>
 
-    
+
       <section className="py-8 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap gap-4 justify-center">
-            {categories.map((category) => (
+         
+            {allCategories.map((category) => (
               <Button key={category} variant={category === "Todos" ? "default" : "outline"} className="rounded-full">
                 {category}
               </Button>
@@ -168,7 +84,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      
+
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-8">
@@ -177,7 +93,8 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {products.map((product) => (
+       
+            {featuredProducts.map((product) => (
               <Card
                 key={product.id}
                 className="group hover:shadow-lg transition-shadow duration-300 flex flex-col h-full"
@@ -185,7 +102,7 @@ export default function HomePage() {
                 <CardHeader className="p-0">
                   <div className="relative overflow-hidden rounded-t-lg">
                     <img
-                      src={product.image || "/placeholder.sv"}
+                      src={product.image || "/placeholder.svg"}
                       alt={product.name}
                       width={300}
                       height={300}
@@ -235,13 +152,15 @@ export default function HomePage() {
                 </CardContent>
 
                 <CardFooter className="p-4 pt-0 space-y-2 mt-auto">
-                  <Link href={`/product/${product.id}`} className="w-full">
+                  
+                  <Link to={`/product/${product.id}`} className="w-full">
                     <Button variant="outline" className="w-full bg-transparent">
                       Ver Detalhes
                     </Button>
                   </Link>
                   <Button className="w-full">
-                    <ShoppingCart className="w-2 h-2 " />
+           
+                    <ShoppingCart className="w-4 h-4 mr-2" />
                     Adicionar ao Carrinho
                   </Button>
                 </CardFooter>
@@ -251,7 +170,7 @@ export default function HomePage() {
         </div>
       </section>
 
-     
+
       <section className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Fique por dentro das novidades</h2>
@@ -263,7 +182,7 @@ export default function HomePage() {
         </div>
       </section>
 
-     
+
       <footer className="bg-white border-t py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -280,84 +199,38 @@ export default function HomePage() {
             <div>
               <h3 className="font-semibold mb-4">Categorias</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>
-                  <Link href="#" className="hover:text-blue-600">
-                    Smartphones
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-600">
-                    Laptops
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-600">
-                    Audio
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-600">
-                    Tablets
-                  </Link>
-                </li>
+          
+                {allCategories.slice(1).map(category => (
+                   <li key={category}>
+                     <Link to="#" className="hover:text-blue-600">{category}</Link>
+                   </li>
+                ))}
               </ul>
             </div>
 
             <div>
               <h3 className="font-semibold mb-4">Atendimento</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>
-                  <Link href="#" className="hover:text-blue-600">
-                    Central de Ajuda
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-600">
-                    Trocas e Devoluções
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-600">
-                    Garantia
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-600">
-                    Contato
-                  </Link>
-                </li>
+                <li><Link to="#" className="hover:text-blue-600">Central de Ajuda</Link></li>
+                <li><Link to="#" className="hover:text-blue-600">Trocas e Devoluções</Link></li>
+                <li><Link to="#" className="hover:text-blue-600">Garantia</Link></li>
+                <li><Link to="#" className="hover:text-blue-600">Contato</Link></li>
               </ul>
             </div>
 
             <div>
               <h3 className="font-semibold mb-4">Empresa</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>
-                  <Link href="#" className="hover:text-blue-600">
-                    Sobre Nós
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-600">
-                    Trabalhe Conosco
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-600">
-                    Política de Privacidade
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-600">
-                    Termos de Uso
-                  </Link>
-                </li>
+                <li><Link to="#" className="hover:text-blue-600">Sobre Nós</Link></li>
+                <li><Link to="#" className="hover:text-blue-600">Trabalhe Conosco</Link></li>
+                <li><Link to="#" className="hover:text-blue-600">Política de Privacidade</Link></li>
+                <li><Link to="#" className="hover:text-blue-600">Termos de Uso</Link></li>
               </ul>
             </div>
           </div>
 
           <div className="border-t mt-8 pt-8 text-center text-gray-600">
-            <p>&copy; 2024 ElectroTech. Todos os direitos reservados.</p>
+            <p>&copy; 2025 ElectroTech. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>

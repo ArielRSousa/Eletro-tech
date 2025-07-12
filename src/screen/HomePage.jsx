@@ -157,7 +157,7 @@ export default function HomePage() {
                     <Button variant="outline" className="w-full bg-transparent">
                       Ver Detalhes
                     </Button>
-                  </Link>
+                  </Link> 
                   <Button className="w-10 h-10  ">
            
                     <ShoppingCart className="w-4 h-4  " />

@@ -8,10 +8,10 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <CartProvider>
-      <BrowserRouter>
+   <BrowserRouter>
+      <CartProvider>
         <Rotas />
-      </BrowserRouter>
-    </CartProvider>
+      </CartProvider>
+    </BrowserRouter>
   </React.StrictMode>,
 );

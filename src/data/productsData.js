@@ -1404,8 +1404,7 @@ export const productsData = [
     price: 19999.0,
     originalPrice: 22999.0,
     images: [
-      '/images/studio-display-pro/1.jpg',
-      '/images/studio-display-pro/2.jpg'
+      '/imagens_produtos/51.jpg'
     ],
     rating: 4.9,
     reviews: 650,
@@ -1435,8 +1434,7 @@ export const productsData = [
     price: 3499.0,
     originalPrice: 3999.0,
     images: [
-      '/images/xiaomi-pad-7/1.jpg',
-      '/images/xiaomi-pad-7/2.jpg'
+     '/imagens_produtos/52.jpg'
     ],
     rating: 4.7,
     reviews: 1150,
@@ -1466,8 +1464,7 @@ export const productsData = [
     price: 1999.0,
     originalPrice: 2299.0,
     images: [
-      '/images/corsair-k100-air/1.jpg',
-      '/images/corsair-k100-air/2.jpg'
+      '/imagens_produtos/53.jpg'
     ],
     rating: 4.8,
     reviews: 950,
@@ -1497,8 +1494,7 @@ export const productsData = [
     price: 8299.0,
     originalPrice: 9299.0,
     images: [
-      '/images/oppo-find-x8/1.jpg',
-      '/images/oppo-find-x8/2.jpg'
+      '/imagens_produtos/54.jpg'
     ],
     rating: 4.8,
     reviews: 900,
@@ -1528,8 +1524,7 @@ export const productsData = [
     price: 12999.0,
     originalPrice: 14999.0,
     images: [
-      '/images/lg-c5-oled/1.jpg',
-      '/images/lg-c5-oled/2.jpg'
+      '/imagens_produtos/55.jpg'
     ],
     rating: 4.9,
     reviews: 2800,
@@ -1559,8 +1554,7 @@ export const productsData = [
     price: 2299.0,
     originalPrice: 2599.0,
     images: [
-      '/images/momentum-tw4/1.jpg',
-      '/images/momentum-tw4/2.jpg'
+      '/imagens_produtos/56.jpg'
     ],
     rating: 4.7,
     reviews: 1400,
@@ -1590,8 +1584,7 @@ export const productsData = [
     price: 4999.0,
     originalPrice: 5499.0,
     images: [
-      '/images/meta-quest-4/1.jpg',
-      '/images/meta-quest-4/2.jpg'
+      '/imagens_produtos/57.jpg'
     ],
     rating: 4.8,
     reviews: 4500,
@@ -1621,8 +1614,7 @@ export const productsData = [
     price: 13999.0,
     originalPrice: 15999.0,
     images: [
-      '/images/zenbook-duo-2025/1.jpg',
-      '/images/zenbook-duo-2025/2.jpg'
+      '/imagens_produtos/58.jpg'
     ],
     rating: 4.7,
     reviews: 600,
@@ -1652,8 +1644,7 @@ export const productsData = [
     price: 1499.0,
     originalPrice: 1699.0,
     images: [
-      '/images/keychron-q1max/1.jpg',
-      '/images/keychron-q1max/2.jpg'
+      '/imagens_produtos/59.jpg'
     ],
     rating: 4.9,
     reviews: 1200,
@@ -1683,8 +1674,7 @@ export const productsData = [
     price: 799.0,
     originalPrice: 999.0,
     images: [
-      '/images/ugreen-nexode-160w/1.jpg',
-      '/images/ugreen-nexode-160w/2.jpg'
+      '/imagens_produtos/60.jpg'
     ],
     rating: 4.9,
     reviews: 2500,
@@ -1714,8 +1704,7 @@ export const productsData = [
     price: 899.0,
     originalPrice: 1049.0,
     images: [
-      '/images/benq-screenbar/1.jpg',
-      '/images/benq-screenbar/2.jpg'
+      '/imagens_produtos/61.jpg'
     ],
     rating: 4.9,
     reviews: 3100,
@@ -1745,8 +1734,7 @@ export const productsData = [
     price: 1899.0,
     originalPrice: 2199.0,
     images: [
-      '/images/galaxy-ring/1.jpg',
-      '/images/galaxy-ring/2.jpg'
+      '/imagens_produtos/62.jpg'
     ],
     rating: 4.7,
     reviews: 1100,
@@ -1776,8 +1764,7 @@ export const productsData = [
     price: 999.0,
     originalPrice: 1299.0,
     images: [
-      '/images/ankerwork-c310/1.jpg',
-      '/images/ankerwork-c310/2.jpg'
+      '/imagens_produtos/63.jpg'
     ],
     rating: 4.8,
     reviews: 950,
@@ -1807,8 +1794,7 @@ export const productsData = [
     price: 8999.0,
     originalPrice: 9999.0,
     images: [
-      '/images/deco-be85/1.jpg',
-      '/images/deco-be85/2.jpg'
+      '/imagens_produtos/64.jpg'
     ],
     rating: 4.9,
     reviews: 400,
@@ -1838,8 +1824,7 @@ export const productsData = [
     price: 14599.0,
     originalPrice: 16599.0,
     images: [
-      '/images/yoga-book-9i/1.jpg',
-      '/images/yoga-book-9i/2.jpg'
+      '/imagens_produtos/65.jpg'
     ],
     rating: 4.8,
     reviews: 550,
@@ -1869,8 +1854,7 @@ export const productsData = [
     price: 2499.0,
     originalPrice: 2799.0,
     images: [
-      '/images/withings-bodyscan/1.jpg',
-      '/images/withings-bodyscan/2.jpg'
+      '/imagens_produtos/66.jpg'
     ],
     rating: 4.7,
     reviews: 700,
@@ -1900,8 +1884,7 @@ export const productsData = [
     price: 5499.0,
     originalPrice: 5999.0,
     images: [
-      '/images/sonos-arc-sl/1.jpg',
-      '/images/sonos-arc-sl/2.jpg'
+      '/imagens_produtos/67.jpg'
     ],
     rating: 4.9,
     reviews: 1800,
@@ -1931,8 +1914,7 @@ export const productsData = [
     price: 899.0,
     originalPrice: 999.0,
     images: [
-      '/images/masterbox-600/1.jpg',
-      '/images/masterbox-600/2.jpg'
+      '/imagens_produtos/68.jpg'
     ],
     rating: 4.8,
     reviews: 500,
@@ -1962,8 +1944,7 @@ export const productsData = [
     price: 999.0,
     originalPrice: 1199.0,
     images: [
-      '/images/nothing-ear-3/1.jpg',
-      '/images/nothing-ear-3/2.jpg'
+      '/imagens_produtos/69.jpg'
     ],
     rating: 4.7,
     reviews: 1600,
@@ -1993,8 +1974,7 @@ export const productsData = [
     price: 4499.0,
     originalPrice: 4999.0,
     images: [
-      '/images/polar-vantage-v3/1.jpg',
-      '/images/polar-vantage-v3/2.jpg'
+      '/imagens_produtos/70.jpg'
     ],
     rating: 4.8,
     reviews: 600,
@@ -2024,8 +2004,7 @@ export const productsData = [
     price: 1299.0,
     originalPrice: 1499.0,
     images: [
-      '/images/hyperx-alloy-rise/1.jpg',
-      '/images/hyperx-alloy-rise/2.jpg'
+      '/imagens_produtos/71.jpg'
     ],
     rating: 4.9,
     reviews: 800,
@@ -2055,8 +2034,7 @@ export const productsData = [
     price: 12999.0,
     originalPrice: 14499.0,
     images: [
-      '/images/galaxy-z-fold7/1.jpg',
-      '/images/galaxy-z-fold7/2.jpg'
+      '/imagens_produtos/72.jpg'
     ],
     rating: 4.8,
     reviews: 1100,
@@ -2086,8 +2064,7 @@ export const productsData = [
     price: 1199.0,
     originalPrice: 1399.0,
     images: [
-      '/images/fitbit-charge-7/1.jpg',
-      '/images/fitbit-charge-7/2.jpg'
+      '/imagens_produtos/73.jpg'
     ],
     rating: 4.6,
     reviews: 4500,
@@ -2117,8 +2094,7 @@ export const productsData = [
     price: 999.0,
     originalPrice: 1149.0,
     images: [
-      '/images/razer-viper-v4/1.jpg',
-      '/images/razer-viper-v4/2.jpg'
+      '/imagens_produtos/74.jpg'
     ],
     rating: 4.9,
     reviews: 1500,
@@ -2148,8 +2124,7 @@ export const productsData = [
     price: 24999.0,
     originalPrice: 27999.0,
     images: [
-      '/images/sony-bravia-9/1.jpg',
-      '/images/sony-bravia-9/2.jpg'
+      '/imagens_produtos/75.jpg'
     ],
     rating: 4.9,
     reviews: 700,
@@ -2179,8 +2154,7 @@ export const productsData = [
     price: 4999.0,
     originalPrice: 5499.0,
     images: [
-      '/images/intel-15900k/1.jpg',
-      '/images/intel-15900k/2.jpg'
+      '/imagens_produtos/76.jpg'
     ],
     rating: 4.8,
     reviews: 900,
@@ -2210,8 +2184,7 @@ export const productsData = [
     price: 1199.0,
     originalPrice: 1399.0,
     images: [
-      '/images/crucial-ddr5-pro/1.jpg',
-      '/images/crucial-ddr5-pro/2.jpg'
+      '/imagens_produtos/77.jpg'
     ],
     rating: 4.9,
     reviews: 1100,
@@ -2241,8 +2214,7 @@ export const productsData = [
     price: 1699.0,
     originalPrice: 1899.0,
     images: [
-      '/images/logitech-gprox3/1.jpg',
-      '/images/logitech-gprox3/2.jpg'
+      '/imagens_produtos/78.jpg'
     ],
     rating: 4.8,
     reviews: 1300,
@@ -2272,8 +2244,7 @@ export const productsData = [
     price: 199.0,
     originalPrice: 249.0,
     images: [
-      '/images/smarttag-3/1.jpg',
-      '/images/smarttag-3/2.jpg'
+      '/imagens_produtos/79.jpg'
     ],
     rating: 4.7,
     reviews: 6800,
@@ -2303,8 +2274,7 @@ export const productsData = [
     price: 4999.0,
     originalPrice: 5499.0,
     images: [
-      '/images/steam-deck-2/1.jpg',
-      '/images/steam-deck-2/2.jpg'
+      '/imagens_produtos/80.jpg'
     ],
     rating: 4.9,
     reviews: 5500,
@@ -2334,8 +2304,7 @@ export const productsData = [
     price: 1899.0,
     originalPrice: 2199.0,
     images: [
-      '/images/nanoleaf-skylight/1.jpg',
-      '/images/nanoleaf-skylight/2.jpg'
+      '/imagens_produtos/81.jpg'
     ],
     rating: 4.7,
     reviews: 450,
@@ -2365,8 +2334,7 @@ export const productsData = [
     price: 2499.0,
     originalPrice: 2999.0,
     images: [
-      '/images/wd-sn850x-4tb/1.jpg',
-      '/images/wd-sn850x-4tb/2.jpg'
+      '/imagens_produtos/82.jpg'
     ],
     rating: 5.0,
     reviews: 3200,
@@ -2396,8 +2364,7 @@ export const productsData = [
     price: 1899.0,
     originalPrice: 2199.0,
     images: [
-      '/images/fiio-k7-bt/1.jpg',
-      '/images/fiio-k7-bt/2.jpg'
+      '/imagens_produtos/83.jpg'
     ],
     rating: 4.9,
     reviews: 750,
@@ -2427,8 +2394,7 @@ export const productsData = [
     price: 28999.0,
     originalPrice: 31999.0,
     images: [
-      '/images/hp-spectre-foldable/1.jpg',
-      '/images/hp-spectre-foldable/2.jpg'
+      '/imagens_produtos/84.jpg'
     ],
     rating: 4.7,
     reviews: 200,
@@ -2458,8 +2424,7 @@ export const productsData = [
     price: 899.0,
     originalPrice: 999.0,
     images: [
-      '/images/aqara-hub-m3/1.jpg',
-      '/images/aqara-hub-m3/2.jpg'
+      '/imagens_produtos/85.jpg'
     ],
     rating: 4.8,
     reviews: 650,
@@ -2489,8 +2454,7 @@ export const productsData = [
     price: 2899.0,
     originalPrice: 3299.0,
     images: [
-      '/images/nest-wifi-pro/1.jpg',
-      '/images/nest-wifi-pro/2.jpg'
+      '/imagens_produtos/86.jpg'
     ],
     rating: 4.7,
     reviews: 2100,
@@ -2520,8 +2484,7 @@ export const productsData = [
     price: 2399.0,
     originalPrice: 2799.0,
     images: [
-      '/images/sandisk-prog40/1.jpg',
-      '/images/sandisk-prog40/2.jpg'
+      '/imagens_produtos/87.jpg'
     ],
     rating: 4.9,
     reviews: 900,
@@ -2551,8 +2514,7 @@ export const productsData = [
     price: 1199.0,
     originalPrice: 1399.0,
     images: [
-      '/images/at2020usb-x/1.jpg',
-      '/images/at2020usb-x/2.jpg'
+      '/imagens_produtos/88.jpg'
     ],
     rating: 4.8,
     reviews: 1900,
@@ -2582,8 +2544,7 @@ export const productsData = [
     price: 1499.0,
     originalPrice: 1699.0,
     images: [
-      '/images/kobo-libra-colour/1.jpg',
-      '/images/kobo-libra-colour/2.jpg'
+      '/imagens_produtos/89.jpg'
     ],
     rating: 4.7,
     reviews: 850,
@@ -2613,8 +2574,7 @@ export const productsData = [
     price: 2499.0,
     originalPrice: 2799.0,
     images: [
-      '/images/owc-tb5-dock/1.jpg',
-      '/images/owc-tb5-dock/2.jpg'
+      '/imagens_produtos/90.jpg'
     ],
     rating: 4.9,
     reviews: 300,
@@ -2644,8 +2604,7 @@ export const productsData = [
     price: 3499.0,
     originalPrice: 3999.0,
     images: [
-      '/images/lacie-rugged-raid/1.jpg',
-      '/images/lacie-rugged-raid/2.jpg'
+      '/imagens_produtos/91.jpg'
     ],
     rating: 4.8,
     reviews: 700,
@@ -2675,8 +2634,7 @@ export const productsData = [
     price: 12999.0,
     originalPrice: 14999.0,
     images: [
-      '/images/orbi-970/1.jpg',
-      '/images/orbi-970/2.jpg'
+      '/imagens_produtos/92.jpg'
     ],
     rating: 4.9,
     reviews: 550,
@@ -2706,8 +2664,7 @@ export const productsData = [
     price: 899.0,
     originalPrice: 999.0,
     images: [
-      '/images/belkin-boostcharge-dock/1.jpg',
-      '/images/belkin-boostcharge-dock/2.jpg'
+      '/imagens_produtos/93.jpg'
     ],
     rating: 4.8,
     reviews: 1800,
@@ -2737,8 +2694,7 @@ export const productsData = [
     price: 1799.0,
     originalPrice: 1999.0,
     images: [
-      '/images/eve-outdoor-cam-2/1.jpg',
-      '/images/eve-outdoor-cam-2/2.jpg'
+      '/imagens_produtos/94.jpg'
     ],
     rating: 4.7,
     reviews: 750,
@@ -2768,8 +2724,7 @@ export const productsData = [
     price: 4499.0,
     originalPrice: 4999.0,
     images: [
-      '/images/samsung-m8-2025/1.jpg',
-      '/images/samsung-m8-2025/2.jpg'
+      '/imagens_produtos/95.jpg'
     ],
     rating: 4.7,
     reviews: 1600,
@@ -2799,8 +2754,7 @@ export const productsData = [
     price: 1499.0,
     originalPrice: 1699.0,
     images: [
-      '/images/nzxt-h9-elite/1.jpg',
-      '/images/nzxt-h9-elite/2.jpg'
+      '/imagens_produtos/96.jpg'
     ],
     rating: 4.9,
     reviews: 1100,
@@ -2830,8 +2784,7 @@ export const productsData = [
     price: 4299.0,
     originalPrice: 4699.0,
     images: [
-      '/images/theragun-pro-plus/1.jpg',
-      '/images/theragun-pro-plus/2.jpg'
+      '/imagens_produtos/97.jpg'
     ],
     rating: 4.9,
     reviews: 950,
@@ -2861,8 +2814,7 @@ export const productsData = [
     price: 299.0,
     originalPrice: 349.0,
     images: [
-      '/images/yeti-rambler-30oz/1.jpg',
-      '/images/yeti-rambler-30oz/2.jpg'
+      '/imagens_produtos/98.jpg'
     ],
     rating: 5.0,
     reviews: 55000,
@@ -2892,8 +2844,7 @@ export const productsData = [
     price: 1999.0,
     originalPrice: 2299.0,
     images: [
-      '/images/peak-design-backpack/1.jpg',
-      '/images/peak-design-backpack/2.jpg'
+      '/imagens_produtos/99.jpg'
     ],
     rating: 4.9,
     reviews: 4200,
@@ -2923,8 +2874,7 @@ export const productsData = [
     price: 2499.0,
     originalPrice: 2799.0,
     images: [
-      '/images/oura-ring-gen4/1.jpg',
-      '/images/oura-ring-gen4/2.jpg'
+      '/imagens_produtos/100.jpg'
     ],
     rating: 4.8,
     reviews: 12000,

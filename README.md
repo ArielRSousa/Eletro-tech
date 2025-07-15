@@ -1,8 +1,6 @@
 
 # ⚡ EletroTech - E-commerce de Eletrônicos
 
-![EletroTech Screenshot](./screenshot.jpeg)
-
 ## 🛒 Visão Geral
 
 **EletroTech** é um projeto de e-commerce desenvolvido com **React**, focado na venda de artigos eletrônicos. O objetivo é simular uma loja virtual moderna, com interface amigável, produtos destacados, categorização inteligente e funcionalidades básicas como **adicionar ao carrinho de compras**.

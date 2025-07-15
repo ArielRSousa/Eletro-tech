@@ -6,7 +6,7 @@ export const productsData = [
     price: 9299.0,
     originalPrice: 10999.0,
     images: [
-      '/imagens_produtos/01.jpg'
+      '/imagens_produtos/1.jpg'
     ],
     rating: 4.9,
     reviews: 2150,

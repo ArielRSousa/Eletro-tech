@@ -1,5 +1,4 @@
-// /data/products.js
-export const productsData = [
+ const productsData = [
   {
     id: 1,
     name: 'iPhone 15 Pro Max',
@@ -2966,3 +2965,4 @@ export const productsData = [
   }
 
 ];
+export default productsData ;

@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Link } from "react-router-dom";
 
 
-import {productsData} from "@/data/productsData" 
+import productsData from "@/data/productsData" 
 
 export default function HomePage() {
 
@@ -63,9 +63,12 @@ export default function HomePage() {
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">Os Melhores Eletrônicos</h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">Tecnologia de ponta com os melhores preços</p>
+            <Link to={"/products/:pageNumber" } >
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              
               Ver Ofertas
             </Button>
+            </Link>
           </div>
         </div>
       </section>
@@ -89,7 +92,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-8">
             <h2 className="text-3xl font-bold text-gray-900">Produtos em Destaque</h2>
+             <Link to={"/products/:pageNumber" } >
             <Button variant="outline">Ver Todos</Button>
+             </Link>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -102,7 +107,7 @@ export default function HomePage() {
                 <CardHeader className="p-0">
                   <div className="relative overflow-hidden rounded-t-lg">
                     <img
-                      src={product.image || "/placeholder.svg"}
+                      src={product.images || "/placeholder.svg"}
                       alt={product.name}
                       width={300}
                       height={300}

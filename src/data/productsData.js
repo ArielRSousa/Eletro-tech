@@ -6,9 +6,7 @@ export const productsData = [
     price: 9299.0,
     originalPrice: 10999.0,
     images: [
-      '/images/iphone-15-pro-max/1.jpg',
-      '/images/iphone-15-pro-max/2.jpg',
-      '/images/iphone-15-pro-max/3.jpg',
+      '/imagens_produtos/1.jpg'
     ],
     rating: 4.9,
     reviews: 2150,
@@ -38,7 +36,9 @@ export const productsData = [
     name: 'Samsung Galaxy S24 Ultra',
     price: 8999.0,
     originalPrice: 9999.0,
-    images: ['/images/s24-ultra/1.jpg', '/images/s24-ultra/2.jpg'],
+    images: [
+      '/imagens_produtos/2.jpg'
+    ],
     rating: 4.8,
     reviews: 1890,
     category: 'smartphones',
@@ -65,7 +65,9 @@ export const productsData = [
     name: 'Xiaomi 14',
     price: 5499.0,
     originalPrice: 6599.0,
-    images: ['/images/xiaomi-14/1.jpg', '/images/xiaomi-14/2.jpg'],
+    images: [
+      '/imagens_produtos/3.jpg'
+    ],
     rating: 4.7,
     reviews: 980,
     category: 'smartphones',
@@ -92,7 +94,9 @@ export const productsData = [
     name: 'Motorola Razr 40 Ultra',
     price: 4899.0,
     originalPrice: 5499.0,
-    images: ['/images/razr-40-ultra/1.jpg', '/images/razr-40-ultra/2.jpg'],
+    images: [
+      '/imagens_produtos/4.jpg'
+    ],
     rating: 4.6,
     reviews: 750,
     category: 'smartphones',
@@ -119,7 +123,9 @@ export const productsData = [
     name: 'Asus ROG Phone 8 Pro',
     price: 9999.0,
     originalPrice: 11999.0,
-    images: ['/images/rog-8-pro/1.jpg', '/images/rog-8-pro/2.jpg'],
+    images: [
+      '/imagens_produtos/5.jpg'
+    ],
     rating: 4.9,
     reviews: 650,
     category: 'smartphones',
@@ -143,10 +149,12 @@ export const productsData = [
   },
   {
     id: 6,
-    name: 'MacBook Air M3 13"',
+    name: 'MacBook Air M3 13',
     price: 9499.0,
     originalPrice: 10999.0,
-    images: ['/images/macbook-air-m3/1.jpg', '/images/macbook-air-m3/2.jpg'],
+    images: [
+      '/imagens_produtos/6.jpg'
+    ],
     rating: 4.9,
     reviews: 1500,
     category: 'notebooks',
@@ -173,7 +181,9 @@ export const productsData = [
     name: 'Dell XPS 15',
     price: 13999.0,
     originalPrice: 15499.0,
-    images: ['/images/dell-xps-15/1.jpg', '/images/dell-xps-15/2.jpg'],
+    images: [
+      '/imagens_produtos/7.jpg'
+    ],
     rating: 4.8,
     reviews: 880,
     category: 'notebooks',
@@ -200,7 +210,9 @@ export const productsData = [
     name: 'Lenovo Yoga Slim 7i',
     price: 7899.0,
     originalPrice: 8999.0,
-    images: ['/images/lenovo-slim-7i/1.jpg', '/images/lenovo-slim-7i/2.jpg'],
+    images: [
+      '/imagens_produtos/8.jpg'
+    ],
     rating: 4.7,
     reviews: 640,
     category: 'notebooks',
@@ -227,7 +239,9 @@ export const productsData = [
     name: 'Samsung Galaxy Book4 Ultra',
     price: 15999.0,
     originalPrice: 18999.0,
-    images: ['/images/galaxy-book4-ultra/1.jpg', '/images/galaxy-book4-ultra/2.jpg'],
+    images: [
+      '/imagens_produtos/9.jpg'
+    ],
     rating: 4.8,
     reviews: 530,
     category: 'notebooks',
@@ -254,7 +268,9 @@ export const productsData = [
     name: 'Acer Nitro 5',
     price: 5899.0,
     originalPrice: 6999.0,
-    images: ['/images/acer-nitro-5/1.jpg', '/images/acer-nitro-5/2.jpg'],
+    images: [
+      '/imagens_produtos/10.jpg'
+    ],
     rating: 4.5,
     reviews: 1200,
     category: 'notebooks',
@@ -282,7 +298,9 @@ export const productsData = [
     name: 'iPad Pro 11" M4',
     price: 11299.0,
     originalPrice: 12299.0,
-    images: ['/images/ipad-pro-m4/1.jpg', '/images/ipad-pro-m4/2.jpg'],
+    images: [
+      '/imagens_produtos/11.jpg'
+    ],
     rating: 4.9,
     reviews: 950,
     category: 'tablets',
@@ -309,7 +327,9 @@ export const productsData = [
     name: 'Samsung Galaxy Tab S9 Ultra',
     price: 7499.0,
     originalPrice: 8999.0,
-    images: ['/images/tab-s9-ultra/1.jpg', '/images/tab-s9-ultra/2.jpg'],
+    images: [
+      '/imagens_produtos/12.jpg'
+    ],
     rating: 4.8,
     reviews: 810,
     category: 'tablets',
@@ -336,7 +356,9 @@ export const productsData = [
     name: 'Xiaomi Pad 6',
     price: 2199.0,
     originalPrice: 2599.0,
-    images: ['/images/xiaomi-pad-6/1.jpg', '/images/xiaomi-pad-6/2.jpg'],
+    images: [
+      '/imagens_produtos/13.jpg'
+    ],
     rating: 4.7,
     reviews: 1300,
     category: 'tablets',
@@ -363,7 +385,9 @@ export const productsData = [
     name: 'Sony WH-1000XM5',
     price: 1899.0,
     originalPrice: 2499.0,
-    images: ['/images/sony-xm5/1.jpg', '/images/sony-xm5/2.jpg'],
+    images: [
+      '/imagens_produtos/14.jpg'
+    ],
     rating: 4.9,
     reviews: 3200,
     category: 'fones',
@@ -390,7 +414,9 @@ export const productsData = [
     name: 'Apple AirPods Pro (2ª geração)',
     price: 1799.0,
     originalPrice: 2199.0,
-    images: ['/images/airpods-pro-2/1.jpg', '/images/airpods-pro-2/2.jpg'],
+    images: [
+      '/imagens_produtos/15.jpg'
+    ],
     rating: 4.8,
     reviews: 4500,
     category: 'fones',
@@ -417,7 +443,9 @@ export const productsData = [
     name: 'JBL Tune 770NC',
     price: 499.0,
     originalPrice: 649.0,
-    images: ['/images/jbl-770nc/1.jpg', '/images/jbl-770nc/2.jpg'],
+    images: [
+      '/imagens_produtos/16.jpg'
+    ],
     rating: 4.6,
     reviews: 2800,
     category: 'fones',
@@ -444,7 +472,9 @@ export const productsData = [
     name: 'Samsung Galaxy Buds FE',
     price: 449.0,
     originalPrice: 599.0,
-    images: ['/images/galaxy-buds-fe/1.jpg', '/images/galaxy-buds-fe/2.jpg'],
+    images: [
+      '/imagens_produtos/17.jpg'
+    ],
     rating: 4.5,
     reviews: 1900,
     category: 'fones',
@@ -472,7 +502,9 @@ export const productsData = [
     name: 'Apple Watch Series 9',
     price: 3999.0,
     originalPrice: 4499.0,
-    images: ['/images/apple-watch-9/1.jpg', '/images/apple-watch-9/2.jpg'],
+    images: [
+      '/imagens_produtos/18.jpg'
+    ],
     rating: 4.9,
     reviews: 2800,
     category: 'smartwatches',
@@ -499,7 +531,9 @@ export const productsData = [
     name: 'Samsung Galaxy Watch6 Classic',
     price: 2499.0,
     originalPrice: 3199.0,
-    images: ['/images/galaxy-watch6-classic/1.jpg', '/images/galaxy-watch6-classic/2.jpg'],
+    images: [
+      '/imagens_produtos/19.jpg'
+    ],
     rating: 4.7,
     reviews: 1750,
     category: 'smartwatches',
@@ -526,7 +560,9 @@ export const productsData = [
     name: 'Amazfit GTR 4',
     price: 1099.0,
     originalPrice: 1299.0,
-    images: ['/images/amazfit-gtr4/1.jpg', '/images/amazfit-gtr4/2.jpg'],
+    images: [
+      '/imagens_produtos/20.jpg'
+    ],
     rating: 4.6,
     reviews: 2200,
     category: 'smartwatches',
@@ -553,7 +589,9 @@ export const productsData = [
     name: 'Console PlayStation 5 Slim',
     price: 3799.0,
     originalPrice: 4299.0,
-    images: ['/images/ps5-slim/1.jpg', '/images/ps5-slim/2.jpg'],
+    images: [
+      '/imagens_produtos/21.jpg'
+    ],
     rating: 4.9,
     reviews: 5500,
     category: 'consoles',
@@ -580,7 +618,9 @@ export const productsData = [
     name: 'Console Xbox Series X',
     price: 4199.0,
     originalPrice: 4499.0,
-    images: ['/images/xbox-series-x/1.jpg', '/images/xbox-series-x/2.jpg'],
+    images: [
+      '/imagens_produtos/22.jpg'
+    ],
     rating: 4.9,
     reviews: 4800,
     category: 'consoles',
@@ -607,7 +647,9 @@ export const productsData = [
     name: 'Nintendo Switch OLED',
     price: 2399.0,
     originalPrice: 2699.0,
-    images: ['/images/switch-oled/1.jpg', '/images/switch-oled/2.jpg'],
+    images: [
+      '/imagens_produtos/23.jpg'
+    ],
     rating: 4.8,
     reviews: 6200,
     category: 'consoles',
@@ -634,7 +676,9 @@ export const productsData = [
     name: 'Smart TV Samsung Crystal 55" 4K',
     price: 2799.0,
     originalPrice: 3299.0,
-    images: ['/images/tv-samsung-crystal/1.jpg', '/images/tv-samsung-crystal/2.jpg'],
+    images: [
+      '/imagens_produtos/24.jpg'
+    ],
     rating: 4.7,
     reviews: 3100,
     category: 'tvs',
@@ -661,7 +705,9 @@ export const productsData = [
     name: 'Smart TV LG QNED 65" 4K',
     price: 4999.0,
     originalPrice: 5999.0,
-    images: ['/images/tv-lg-qned/1.jpg', '/images/tv-lg-qned/2.jpg'],
+    images: [
+      '/imagens_produtos/25.jpg'
+    ],
     rating: 4.8,
     reviews: 1400,
     category: 'tvs',
@@ -688,7 +734,9 @@ export const productsData = [
     name: 'Câmera Sony Alpha a7 IV',
     price: 15999.0,
     originalPrice: 17999.0,
-    images: ['/images/sony-a7iv/1.jpg', '/images/sony-a7iv/2.jpg'],
+    images: [
+      '/imagens_produtos/26.jpg'
+    ],
     rating: 4.9,
     reviews: 850,
     category: 'cameras',
@@ -715,7 +763,9 @@ export const productsData = [
     name: 'Drone DJI Mini 4 Pro',
     price: 6999.0,
     originalPrice: 7999.0,
-    images: ['/images/dji-mini-4-pro/1.jpg', '/images/dji-mini-4-pro/2.jpg'],
+    images: [
+      '/imagens_produtos/27.jpg'
+    ],
     rating: 4.9,
     reviews: 1100,
     category: 'drones',
@@ -742,7 +792,9 @@ export const productsData = [
     name: 'Monitor Gamer Dell Alienware 27" OLED',
     price: 7499.0,
     originalPrice: 8299.0,
-    images: ['/images/alienware-oled/1.jpg', '/images/alienware-oled/2.jpg'],
+    images: [
+      '/imagens_produtos/28.jpg'
+    ],
     rating: 4.8,
     reviews: 450,
     category: 'monitores',
@@ -769,7 +821,9 @@ export const productsData = [
     name: 'Mouse Gamer Logitech G Pro X Superlight',
     price: 699.0,
     originalPrice: 849.0,
-    images: ['/images/g-pro-superlight/1.jpg', '/images/g-pro-superlight/2.jpg'],
+    images: [
+      '/imagens_produtos/29.jpg'
+    ],
     rating: 4.9,
     reviews: 3500,
     category: 'perifericos',
@@ -796,7 +850,9 @@ export const productsData = [
     name: 'Teclado Mecânico Redragon Kumara K552',
     price: 249.0,
     originalPrice: 329.0,
-    images: ['/images/redragon-kumara/1.jpg', '/images/redragon-kumara/2.jpg'],
+    images: [
+      '/imagens_produtos/30.jpg'
+    ],
     rating: 4.7,
     reviews: 8900,
     category: 'perifericos',
@@ -823,7 +879,9 @@ export const productsData = [
     name: 'Samsung Galaxy Z Fold 5',
     price: 10999.0,
     originalPrice: 13799.0,
-    images: ['/images/z-fold-5/1.jpg', '/images/z-fold-5/2.jpg'],
+    images: [
+      '/imagens_produtos/31.jpg'
+    ],
     rating: 4.7,
     reviews: 450,
     category: 'smartphones',
@@ -850,7 +908,9 @@ export const productsData = [
     name: 'iPad Air 13" M2',
     price: 7499.0,
     originalPrice: 8499.0,
-    images: ['/images/ipad-air-m2/1.jpg', '/images/ipad-air-m2/2.jpg'],
+    images: [
+      '/imagens_produtos/32.jpg'
+    ],
     rating: 4.8,
     reviews: 780,
     category: 'tablets',
@@ -877,7 +937,9 @@ export const productsData = [
     name: 'Headset Gamer HyperX Cloud III',
     price: 599.0,
     originalPrice: 749.0,
-    images: ['/images/hyperx-cloud-3/1.jpg', '/images/hyperx-cloud-3/2.jpg'],
+    images: [
+      '/imagens_produtos/33.jpg'
+    ],
     rating: 4.8,
     reviews: 2100,
     category: 'perifericos',
@@ -904,7 +966,9 @@ export const productsData = [
     name: 'Soundbar JBL Bar 9.1',
     price: 4599.0,
     originalPrice: 5999.0,
-    images: ['/images/jbl-bar-9-1/1.jpg', '/images/jbl-bar-9-1/2.jpg'],
+    images: [
+      '/imagens_produtos/34.jpg'
+    ],
     rating: 4.7,
     reviews: 950,
     category: 'audio',
@@ -931,7 +995,9 @@ export const productsData = [
     name: 'Kindle Paperwhite Signature Edition',
     price: 749.0,
     originalPrice: 849.0,
-    images: ['/images/kindle-paperwhite/1.jpg', '/images/kindle-paperwhite/2.jpg'],
+    images: [
+      '/imagens_produtos/35.jpg'
+    ],
     rating: 4.9,
     reviews: 15000,
     category: 'leitores',
@@ -958,7 +1024,9 @@ export const productsData = [
     name: 'Google Pixel 8 Pro',
     price: 7999.0,
     originalPrice: 8999.0,
-    images: ['/images/pixel-8-pro/1.jpg', '/images/pixel-8-pro/2.jpg'],
+    images: [
+      '/imagens_produtos/36.jpg'
+    ],
     rating: 4.7,
     reviews: 1200,
     category: 'smartphones',
@@ -985,7 +1053,9 @@ export const productsData = [
     name: 'Notebook Gamer Avell A70 MOB',
     price: 11999.0,
     originalPrice: 13499.0,
-    images: ['/images/avell-a70/1.jpg', '/images/avell-a70/2.jpg'],
+    images: [
+      '/imagens_produtos/37.jpg'
+    ],
     rating: 4.8,
     reviews: 350,
     category: 'notebooks',
@@ -1012,7 +1082,9 @@ export const productsData = [
     name: 'Edifier W820NB Plus',
     price: 399.0,
     originalPrice: 549.0,
-    images: ['/images/edifier-w820nb/1.jpg', '/images/edifier-w820nb/2.jpg'],
+    images: [
+      '/imagens_produtos/38.jpg'
+    ],
     rating: 4.7,
     reviews: 4100,
     category: 'fones',
@@ -1039,7 +1111,9 @@ export const productsData = [
     name: 'Garmin Forerunner 265',
     price: 3199.0,
     originalPrice: 3599.0,
-    images: ['/images/garmin-265/1.jpg', '/images/garmin-265/2.jpg'],
+    images: [
+      '/imagens_produtos/39.jpg'
+    ],
     rating: 4.8,
     reviews: 980,
     category: 'smartwatches',
@@ -1066,7 +1140,9 @@ export const productsData = [
     name: 'Roteador Wi-Fi 6 TP-Link Archer AX73',
     price: 799.0,
     originalPrice: 999.0,
-    images: ['/images/archer-ax73/1.jpg', '/images/archer-ax73/2.jpg'],
+    images: [
+      '/imagens_produtos/40.jpg'
+    ],
     rating: 4.8,
     reviews: 2500,
     category: 'redes',
@@ -1094,8 +1170,7 @@ export const productsData = [
     price: 7499.0,
     originalPrice: 8499.0,
     images: [
-      '/images/motorola-razr-50/1.jpg',
-      '/images/motorola-razr-50/2.jpg'
+      '/imagens_produtos/41.jpg'
     ],
     rating: 4.6,
     reviews: 850,
@@ -1121,12 +1196,11 @@ export const productsData = [
   },
   {
     id: 42,
-    name: 'Philips Hue Play Gradient Lightstrip 65"',
+    name: 'Philips Hue Play Gradient Lightstrip 65',
     price: 1899.0,
     originalPrice: 2199.0,
     images: [
-      '/images/hue-gradient/1.jpg',
-      '/images/hue-gradient/2.jpg'
+      '/imagens_produtos/42.jpg'
     ],
     rating: 4.8,
     reviews: 1500,
@@ -1156,8 +1230,7 @@ export const productsData = [
     price: 27999.0,
     originalPrice: 29999.0,
     images: [
-      '/images/wacom-cintiq-27/1.jpg',
-      '/images/wacom-cintiq-27/2.jpg'
+      '/imagens_produtos/43.jpg'
     ],
     rating: 4.9,
     reviews: 350,
@@ -1187,8 +1260,7 @@ export const productsData = [
     price: 3499.0,
     originalPrice: 3999.0,
     images: [
-      '/images/sonos-era-300/1.jpg',
-      '/images/sonos-era-300/2.jpg'
+      '/imagens_produtos/44.jpg'
     ],
     rating: 4.9,
     reviews: 1200,
@@ -1218,8 +1290,7 @@ export const productsData = [
     price: 5499.0,
     originalPrice: 5999.0,
     images: [
-      '/images/ryzen-9950x/1.jpg',
-      '/images/ryzen-9950x/2.jpg'
+      '/imagens_produtos/45.jpg'
     ],
     rating: 5.0,
     reviews: 800,
@@ -1249,8 +1320,7 @@ export const productsData = [
     price: 14999.0,
     originalPrice: 16999.0,
     images: [
-      '/images/rtx-5090/1.jpg',
-      '/images/rtx-5090/2.jpg'
+      '/imagens_produtos/46.jpg'
     ],
     rating: 5.0,
     reviews: 1100,
@@ -1280,8 +1350,7 @@ export const productsData = [
     price: 8999.0,
     originalPrice: 9999.0,
     images: [
-      '/images/roomba-j9/1.jpg',
-      '/images/roomba-j9/2.jpg'
+      '/imagens_produtos/47.jpg'
     ],
     rating: 4.8,
     reviews: 900,
@@ -1311,8 +1380,7 @@ export const productsData = [
     price: 2199.0,
     originalPrice: 2499.0,
     images: [
-      '/images/shure-mv7plus/1.jpg',
-      '/images/shure-mv7plus/2.jpg'
+      '/imagens_produtos/48.jpg'
     ],
     rating: 4.9,
     reviews: 1800,
@@ -1342,8 +1410,7 @@ export const productsData = [
     price: 6999.0,
     originalPrice: 7599.0,
     images: [
-      '/images/mac-mini-m4/1.jpg',
-      '/images/mac-mini-m4/2.jpg'
+      '/imagens_produtos/49.jpg'
     ],
     rating: 4.8,
     reviews: 750,
@@ -1373,8 +1440,7 @@ export const productsData = [
     price: 2999.0,
     originalPrice: 3399.0,
     images: [
-      '/images/rode-wireless-pro/1.jpg',
-      '/images/rode-wireless-pro/2.jpg'
+      '/imagens_produtos/50.jpg'
     ],
     rating: 5.0,
     reviews: 1100,

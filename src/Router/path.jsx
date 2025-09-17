@@ -7,6 +7,7 @@ import CheckoutPage from "@/screen/Checkout";
 import ProductDetail from "@/screen/PrudutcDetail"; 
 import CartPage from "@/screen/Cart";
 import ProductListPage from "../components/ProductListPage";
+import AdminPage from "@/screen/AdminPage";
 
 const Rotas = () => {
     return (
@@ -20,6 +21,8 @@ const Rotas = () => {
             <Route path="/products/:pageNumber" element={<ProductListPage />} />
 
             <Route path="/products" element={<Navigate to="/products/1" />} />
+            
+            <Route path="/admin" element={<AdminPage />} />
             
         </Routes>
     );

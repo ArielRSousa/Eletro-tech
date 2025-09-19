@@ -5,12 +5,12 @@
   "type": "module",
   "scripts": {
     "dev:front": "vite",
-    "dev:api": " nodemon server.js",
-    "start": "node server.js",  
+    "dev:api": "npx nodemon server.js",
+    "start": "node server.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-},
+  },
   "dependencies": {
     "@prisma/client": "^6.16.2",
     "@radix-ui/react-dropdown-menu": "^2.1.15",

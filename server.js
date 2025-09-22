@@ -1,32 +1,15 @@
+// Carrega as variáveis de ambiente do ficheiro .env
+import 'dotenv/config';
 
-import dotenv from 'dotenv';
-dotenv.config(); 
+// Importa o app do ficheiro app.js (na mesma pasta)
+// A CORREÇÃO ESTÁ AQUI: o caminho mudou de './src/app.js' para './app.js'
+import app from './app.js';
 
-import express from 'express';
-import cors from 'cors';
+// Define a porta a partir das variáveis de ambiente ou usa 3333 como padrão
+const PORT = process.env.PORT || 3333;
 
-
-import authRoutes from './src/api/routes/authRoutes.js';
-import productRoutes from './src/api/routes/productRoutes.js';
-import cartRoutes from './src/api/routes/cartRoutes.js';
-import orderRoutes from './src/api/routes/orderRoutes.js';
-import publicRoutes from './src/api/routes/publiRoutes.js'; 
-
-const app = express();
-const PORT = process.env.PORT || 3333; 
-
-
-app.use(cors());
-app.use(express.json());
-
-
-app.use('/api/auth', authRoutes);
-app.use('/api/products', productRoutes); 
-app.use('/api/cart', cartRoutes);       
-app.use('/api/orders', orderRoutes);    
-app.use('/api', publicRoutes);          
-
-
+// Inicia o servidor e coloca-o a escutar na porta definida
 app.listen(PORT, () => {
-  console.log(`🚀 Servidor rodando na porta ${PORT}`);
+  console.log(`🚀 Servidor a ser executado na porta ${PORT}`);
 });
+

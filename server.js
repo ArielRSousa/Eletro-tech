@@ -1,5 +1,13 @@
-// Carrega as variáveis de ambiente do ficheiro .env
+import express from 'express'; 
 import 'dotenv/config';
+import { fileURLToPath } from 'url';
+import path from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 // Importa o app do ficheiro app.js (na mesma pasta)
 // A CORREÇÃO ESTÁ AQUI: o caminho mudou de './src/app.js' para './app.js'

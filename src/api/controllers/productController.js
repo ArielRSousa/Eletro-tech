@@ -111,3 +111,4 @@
       res.status(500).json({ message: 'Erro ao buscar o produto.', error: error.message });
     }
   };
+  

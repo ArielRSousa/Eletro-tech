@@ -6,7 +6,6 @@
 
 generator client {
   provider = "prisma-client-js"
-
 }
 
 datasource db {
@@ -15,14 +14,14 @@ datasource db {
 }
 
 model Cliente {
-  id           Int        @id @default(autoincrement())
+  id           Int         @id @default(autoincrement())
   nome         String
-  email        String     @unique
+  email        String      @unique
   senha        String
-  cpf          String     @unique
+  cpf          String      @unique
   telefone     String
-  criadoEm     DateTime   @default(now())
-  atualizadoEm DateTime   @updatedAt
+  criadoEm     DateTime    @default(now())
+  atualizadoEm DateTime    @updatedAt
   enderecos    Endereco[]
   pedidos      Pedido[]
   avaliacoes   Avaliacao[]
@@ -30,67 +29,77 @@ model Cliente {
 }
 
 model Endereco {
-  id         Int      @id @default(autoincrement())
-  cliente    Cliente  @relation(fields: [clienteId], references: [id])
-  clienteId  Int
-  rua        String
-  numero     String
+  id          Int      @id @default(autoincrement())
+  cliente     Cliente  @relation(fields: [clienteId], references: [id])
+  clienteId   Int
+  rua         String
+  numero      String
   complemento String?
-  bairro     String
-  cidade     String
-  estado     String
-  cep        String
-  pedidos Pedido[]
+  bairro      String
+  cidade      String
+  estado      String
+  cep         String
+  pedidos     Pedido[]
 }
 
 model Vendedor {
-  id           Int        @id @default(autoincrement())
+  id           Int       @id @default(autoincrement())
   nome         String
-  email        String     @unique
+  email        String    @unique
   senha        String
-  cnpj         String     @unique
+  cnpj         String    @unique
   telefone     String
   endereco     String
   cidade       String
   estado       String
   cep          String
-  criadoEm     DateTime   @default(now())
-  atualizadoEm DateTime   @updatedAt
+  criadoEm     DateTime  @default(now())
+  atualizadoEm DateTime  @updatedAt
   produtos     Produto[]
 }
 
-model Categoria {
-  id        Int       @id @default(autoincrement())
-  nome      String    @unique
-  produtos  Produto[]
+model Produto {
+  id              Int      @id @default(autoincrement())
+  nome            String
+  preco           Float
+  precoOriginal   Float?
+  imagemUrl       String?
+  avaliacao       Float?
+  numAvaliacoes   Int?
+  desconto        Int?
+  descricao       String   @db.Text
+  caracteristicas String[]
+  especificacoes  Json?
+  emEstoque       Boolean  @default(true)
+  estoque         Int
+  categoriaId     Int
+  vendedorId      Int
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  categoria Categoria @relation(fields: [categoriaId], references: [id])
+  vendedor  Vendedor  @relation(fields: [vendedorId], references: [id])
+
+  // ADICIONE ESTAS TRÊS LINHAS ABAIXO
+  pedidos       PedidoProduto[] // Ligação de volta para PedidoProduto
+  avaliacoes    Avaliacao[] // Ligação de volta para Avaliacao
+  carrinhoItens CarrinhoItem[] // Ligação de volta para CarrinhoItem
 }
 
-model Produto {
-  id           Int          @id @default(autoincrement())
-  nome         String
-  descricao    String
-  preco        Float
-  estoque      Int
-  imagemUrl    String
-  criadoEm     DateTime     @default(now())
-  atualizadoEm DateTime     @updatedAt
-  vendedor     Vendedor     @relation(fields: [vendedorId], references: [id])
-  vendedorId   Int
-  categoria    Categoria    @relation(fields: [categoriaId], references: [id])
-  categoriaId  Int
-  pedidos      PedidoProduto[]
-  avaliacoes   Avaliacao[]
-  carrinhoItens CarrinhoItem[]
+model Categoria {
+  id       Int       @id @default(autoincrement())
+  nome     String    @unique
+  produtos Produto[]
 }
 
 model Pedido {
-  id           Int            @id @default(autoincrement())
-  cliente      Cliente        @relation(fields: [clienteId], references: [id])
+  id           Int             @id @default(autoincrement())
+  cliente      Cliente         @relation(fields: [clienteId], references: [id])
   clienteId    Int
-  endereco     Endereco      @relation(fields: [enderecoId], references: [id])
+  endereco     Endereco        @relation(fields: [enderecoId], references: [id])
   enderecoId   Int
-  criadoEm     DateTime       @default(now())
-  atualizadoEm DateTime       @updatedAt
+  criadoEm     DateTime        @default(now())
+  atualizadoEm DateTime        @updatedAt
   status       StatusPedido
   total        Float
   produtos     PedidoProduto[]
@@ -112,16 +121,16 @@ model Avaliacao {
   clienteId  Int
   produto    Produto  @relation(fields: [produtoId], references: [id])
   produtoId  Int
-  nota       Int      // 1 a 5
+  nota       Int // 1 a 5
   comentario String?
   criadoEm   DateTime @default(now())
 }
 
 model Carrinho {
-  id         Int         @id @default(autoincrement())
-  cliente    Cliente     @relation(fields: [clienteId], references: [id])
-  clienteId  Int         @unique
-  itens      CarrinhoItem[]
+  id        Int            @id @default(autoincrement())
+  cliente   Cliente        @relation(fields: [clienteId], references: [id])
+  clienteId Int            @unique
+  itens     CarrinhoItem[]
 }
 
 model CarrinhoItem {

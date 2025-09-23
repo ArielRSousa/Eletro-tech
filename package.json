@@ -10,7 +10,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "dotenv -e .env.test -- npx prisma migrate deploy -- && jest --runInBand"
+    "test": "dotenv -e .env.test -- npx prisma migrate deploy -- && jest --runInBand",
+    "seed:categories": "node seedCategorias.js", 
+    "seed": "node seed.js"
   },
   "dependencies": {
     "@prisma/client": "^6.16.2",
